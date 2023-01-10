@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 0.2rem;
+}
+
+.table {
+  border: 1px aliceblue dashed;
+  padding: 1rem;
+}
