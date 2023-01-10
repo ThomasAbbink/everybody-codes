@@ -51,7 +51,7 @@ const fizzBuzz = <T extends FizzBuzzable>(items: T[]): T[][] => {
 }
 
 const getColumn = (n: number) => {
-  if (n % 3 && n % 5 === 0) {
+  if (n % 3 === 0 && n % 5 === 0) {
     return 2
   }
   if (n % 3 === 0) {
